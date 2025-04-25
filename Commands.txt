@@ -28,3 +28,14 @@ if (isWeekend && isSunny) {
 } else {
   console.log("It's neither the weekend nor a holiday, let's stay at home.");
 }
+
+Function define
+function sayHello(name) {
+  // code inside here runs when the function is called
+}
+
+Function call
+sayHello("Subham"); 
+
+Global variable can be accessed everywhere even inside functions 
+
