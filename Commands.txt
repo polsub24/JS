@@ -39,3 +39,12 @@ sayHello("Subham");
 
 Global variable can be accessed everywhere even inside functions 
 
+Arrays:-
+let variedArray = ["Hello", 25, true]; // The `variedArray` contains three different types of data.
+
+arrays are mutable that is reassignment possible
+
+ arr.length -- fetches length of arrays
+ arr.push("Hello);
+ arr.pop();
+
