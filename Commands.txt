@@ -33,6 +33,9 @@ Function define
 function sayHello(name) {
   // code inside here runs when the function is called
 }
+start: function(name) {
+    return 'Engine started!';
+}
 
 Function call
 sayHello("Subham"); 
@@ -47,4 +50,27 @@ arrays are mutable that is reassignment possible
  arr.length -- fetches length of arrays
  arr.push("Hello);
  arr.pop();
+
+let car = {
+    color: 'red',
+    make: 'Toyota',
+    model: 'Corolla',
+}; //object car 
+
+car.color = 'blue'; // modifying color property
+car.roofRack = true; // adding roofRack property
+delete car.roofRack; // removing roofRack property  
+
+let house = {
+    'number of rooms': 4,
+    1: 'one',
+};
+
+let rooms = house['number of rooms']; // equals 4
+let one = house[1]; // equals 'one'
+
+add a function inside an object 
+user.introduce = function() { // a new method is added
+    console.log("Hi, I am " + this.name);
+}
 
