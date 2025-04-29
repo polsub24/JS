@@ -74,5 +74,3 @@ user.introduce = function() { // a new method is added
     console.log("Hi, I am " + this.name);
 }
 
-Example:-
-
