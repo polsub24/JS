@@ -47,3 +47,10 @@ const fruitNames = ['Apple', 'Banana', 'Cherry'];
 const fruitList = fruitNames.join(', ');
 
 console.log(fruitList);  // Outputs: "Apple, Banana, Cherry"
+
+// Destructuring an array of ingredients
+const ingredients = ['flour', 'sugar', 'eggs', 'butter'];
+// TODO: Assign ingredient variables using array destructuring
+const [flour, sugar, eggs, butter ] = ingredients;
+// TODO: Use a template string to create a message about the main ingredients for a cake
+const message = `The main ingredients for a cake are: ${flour}, ${sugar}, ${eggs}, and ${butter}.`;
