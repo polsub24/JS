@@ -1,0 +1,12 @@
+forEach();
+map();
+filter();
+reduce();
+find();
+
+To call array methods:-
+arrayVar.arrayMethod(func)
+
+Array Methods accept a function as a parameter using:-
+arrayVar.arrayMethod( (functionParameters) => /* function code */ )
+
