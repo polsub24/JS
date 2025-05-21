@@ -6,6 +6,8 @@ console.log("Hello, World!");
 Multi-line 
 comment */
 
+Hyphens are not allowed in JS variable names.
+
 three primary data types: Numbers, Strings, and Booleans.
 
 let age = 20; // variables with let can be reassigned
